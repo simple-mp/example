@@ -1,0 +1,46 @@
+{
+  "name": "mp-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node webpack/watch.js",
+    "build": "node webpack/build.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "vue": "^2.6.11"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.7.4",
+    "@babel/plugin-proposal-class-properties": "^7.7.4",
+    "@babel/polyfill": "^7.7.0",
+    "@babel/preset-env": "^7.7.4",
+    "@babel/preset-react": "^7.7.4",
+    "babel-loader": "^8.0.6",
+    "babel-plugin-import": "^1.13.0",
+    "chalk": "^2.4.2",
+    "css-loader": "^0.28.0",
+    "fast-glob": "^3.1.0",
+    "file-loader": "^1.1.4",
+    "friendly-errors-webpack-plugin": "^1.6.1",
+    "fs-extra": "^8.1.0",
+    "md5-file": "^4.0.0",
+    "mini-css-extract-plugin": "^0.8.0",
+    "node-notifier": "^5.4.3",
+    "node-sass": "^4.13.0",
+    "optimize-css-assets-webpack-plugin": "^5.0.3",
+    "ora": "^1.2.0",
+    "sass-loader": "^8.0.0",
+    "uglifyjs-webpack-plugin": "^1.1.1",
+    "url-loader": "^3.0.0",
+    "webpack": "^4.29.6",
+    "webpack-bundle-analyzer": "^2.9.0",
+    "webpack-cli": "^3.3.0",
+    "webpack-dev-server": "^3.2.1",
+    "webpack-merge": "^4.2.1"
+  }
+}

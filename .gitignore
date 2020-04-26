@@ -1,0 +1,13 @@
+node_modules
+.build
+.vscode
+.idea
+packages/dev-tool-worker/static/
+.DS_Store
+out
+package-lock.json
+dist/
+_book/
+/packages/dev-tool-worker/static/
+/packages/dev-tool-worker/types/
+/packages/types
